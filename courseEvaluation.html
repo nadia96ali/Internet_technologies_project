@@ -25,11 +25,17 @@
         </div>
         <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#container">
           <div class="card-body">
+            <label for="year">Year:</label>
+            <input id="year" class="form-control" type="text" placeholder="2020" readonly>
+            <br>
             <label for="semester">Semester:</label>
-            <input id="semester" class="form-control" type="text" placeholder="Fall 2020" readonly>
+            <input id="semester" class="form-control" type="text" placeholder="Fall" readonly>
             <br>
             <label for="faculty">Faculty:</label>
             <input id="faculty" class="form-control" type="text" placeholder="Faculty of Computing and Information Technology" readonly>
+            <br>
+            <label for="department">Department:</label>
+            <input id="department" class="form-control" type="text" placeholder="Computer Science" readonly>
             <br>
             <label for="courseNum">Course Number:</label>
             <input id="courseNum" class="form-control" type="text" placeholder="CS 665" readonly>
@@ -40,7 +46,7 @@
         </div>
       </div>
 
-      <div class="card card-custom " id="begin">
+      <div class="card card-custom " id="first">
         <div class="card-header card-header-custom ">
 
           <button class="custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
@@ -99,7 +105,7 @@
         </div>
       </div>
 
-      <div class="card card-custom " id="during">
+      <div class="card card-custom " id="second">
         <div class="card-header card-header-custom ">
           <button class="custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
             Questions about what happened during the course
@@ -353,7 +359,7 @@
         </div>
       </div>
 
-      <div class="card card-custom " id="courseEval">
+      <div class="card card-custom " id="third">
         <div class="card-header card-header-custom ">
           <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
             Course evaluation
@@ -428,7 +434,7 @@
       </div>
 
 
-      <div class="card card-custom " id="generalEval">
+      <div class="card card-custom " id="fourth">
         <div class="card-header card-header-custom ">
           <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
             General evaluation
@@ -456,7 +462,7 @@
         </div>
       </div>
 
-      <div class="card card-custom" id="open">
+      <div class="card card-custom" id="fifth">
         <div class="card-header card-header-custom">
           <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
             Open-ended questions
@@ -502,6 +508,7 @@
     </div>
 <div class="row-md-12 text-center">
   <button type="button" name="submit" class="btn btn-success btn-submit">Submit</button>
+  <input type="reset" class="btn btn-success btn-submit">
 </div>
 
   </form>
