@@ -1,0 +1,46 @@
+.container-header{
+  padding-left: 2%;
+  color: white;
+  background-color: #30475e;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-custom{
+  width: 90%;
+  margin: 2%;
+}
+.card-custom .collapse{
+    border: 1px black solid;
+}
+.card-header-custom{
+  background-color: #060930;
+  color:white;
+}
+.custom-btn{
+  background-color: transparent;
+  color:white;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+.padding-row{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-bottom: 1px black solid;
+}
+#begin .padding-row:last-child,#during .padding-row:last-child,#courseEval .padding-row:last-child,#generalEval .padding-row:last-child,#open .padding-row:last-child{
+  border: none;
+}
+.col-sm-2 label{
+  font-size: 14px;
+}
+.disagree{
+  margin-left: 35%;
+}
+.custom-textarea{
+  border-radius: 5px;
+}
+.collapse.show {
+  visibility: visible;
+}
