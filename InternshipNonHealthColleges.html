@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <title>Field / Collaborative Training for Non-Health Colleges Evaluation</title>
+</head>
+
+<body>
+  <form class="" action="index.html" method="post">
+
+    <div class="accordion card" id="container">
+      <div class="card-header container-header">
+      Field / Collaborative Training for Non-Health Colleges Evaluation
+      </div>
+      <div class="card card-custom" id="generalInfo">
+        <div class="card-header card-header-custom">
+          <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            General information
+          </button>
+        </div>
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#container">
+          <div class="card-body">
+            <label for="year">Year:</label>
+            <input id="year" class="form-control" type="text" placeholder="2020" readonly>
+            <br>
+            <label for="semester">Semester:</label>
+            <input id="semester" class="form-control" type="text" placeholder="Fall" readonly>
+            <br>
+            <label for="faculty">Faculty:</label>
+            <input id="faculty" class="form-control" type="text" placeholder="Faculty of Computing and Information Technology" readonly>
+            <br>
+            <label for="department">Department:</label>
+            <input id="department" class="form-control" type="text" placeholder="Computer Science" readonly>
+            <br>
+            <label for="place">Training place:</label>
+            <input id="place" class="form-control" type="text" name="" value="">
+            <br>
+            <label for="duration">Training duration:</label>
+            <input id="duration" class="form-control" type="text" name="" value="">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card card-custom " id="first">
+        <div class="card-header card-header-custom ">
+
+          <button class="custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            Training evaluation
+          </button>
+        </div>
+
+        <div id="collapse2" class="panel-collapse collapse" aria-labelledby="heading2" data-parent="#container">
+          <div class="card-body">
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. Trainer's cooperation</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">2. The trainer's ability to communicate.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">3. The trainer's ability to choose the appropriate site for training</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">4. The trainer's ability to manage dialogue and motivate students.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">5. The trainer's ability to create interaction between students.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">6. The trainer's ability to solve problems.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">7. The trainer's ability to distribute students in the appropriate places.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">8. The appropriateness of the training program time.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">9. The adequacy of the training program period.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">10. The appropriateness of training with the objectives and content of the course.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">11. How appropriate the topics in training are to the students' levels.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">7. The trainer's ability to distribute students in the appropriate places.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">12. The suitability of the topics in the training with practical reality</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">13. The extent to which the program helps in developing your skills</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">14. The extent to which the program helps in developing your knowledge</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">15. The degree of cooperation of officials at the training site with you.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">16. The extent to which the training agency can benefit from your skills.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">17. The suitability of the site for the training process.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">18- The suitability of the equipment (lighting, ventilation, appliances).</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">19. Appropriateness of amenities.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Poor</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Excellent</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-custom" id="fifth">
+        <div class="card-header card-header-custom">
+          <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+            Open-ended questions
+          </button>
+        </div>
+
+        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#container">
+
+
+          <div class="card-body">
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. The most important knowledge obtained?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">2. The most important skills that you acquired during the participation?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">3. The main advantages of the program?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">4. The main disadvantages of the program?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">5. Your most important suggestions for developing the program?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+<div class="row-md-12 text-center">
+  <button type="button" name="submit" class="btn btn-success btn-submit">Submit</button>
+  <input type="reset" class="btn btn-success btn-submit">
+</div>
+
+  </form>
+</body>
+
+</html>
