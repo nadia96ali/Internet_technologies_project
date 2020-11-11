@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Creation Summary</title>
+  </head>
+  <body>
+
+    <div class="card" id="container">
+      <div class="card-header container-header">
+        Creation Summary
+      </div>
+      <div class="card card-custom" id="generalInfoCreate">
+        <div class="card-header card-header-custom">
+          General information
+        </div>
+        <div class="card-body" id="createInfo">
+          <label for="inputType">Type:</label>
+          <input id="inputType" class="form-control" type="text" value="Course Evaluation" readonly>
+    <br>
+    <label for="year">Year:</label>
+    <input id="year" class="form-control" type="text" value="2020" readonly>
+    <br>
+    <label for="semester">Semester:</label>
+    <input id="semester" class="form-control" type="text" value="Fall" readonly>
+
+      <br>
+
+    <label for="faculty">Faculty:</label>
+      <input id="faculty" class="form-control" type="text" value="Faculty of Computing and Information Technology" readonly>
+    <br>
+    <label for="department">Department:</label>
+    <input id="faculty" class="form-control" type="text" value="Computer science" readonly>
+    <br>
+
+      <label for="courseNum">Course Number:</label>
+      <input id="courseNum" class="form-control" type="text" placeholder="CS 665">
+      <br>
+      <label for="courseName">Course Name:</label>
+      <input id="courseName" class="form-control" type="text" placeholder="Internet Technologies">
+        </div>
+      </div>
+
+      <div class="card card-custom" id="recipientSelect">
+        <div class="card-header card-header-custom">
+          Recipient Selection
+        </div>
+        <div class="card-body" id="createRecipient">
+          <label for="createRecipient">Recipient:</label>
+
+
+          <div class="row-sm-2">
+            <input class="form-control" type="text" value="Rasha Almalki" readonly>
+          </div>
+          <div class="row-sm-2">
+            <input class="form-control" type="text" value="Nadia Bahatheg" readonly>
+          </div>
+          <div class="row-sm-2">
+            <input class="form-control" type="text" value="Yasmen Enaye"readonly>
+          </div>
+
+
+    </div>
+        </div>
+
+
+      <div class="row-md-12 text-center">
+        <button type="button" name="submit" class="btn btn-success btn-submit">OK</button>
+      </div>
+    </div>
+  </body>
+</html>
