@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <title>Program Evaluation</title>
+</head>
+
+<body>
+  <form class="" action="index.html" method="post">
+
+    <div class="accordion card" id="container">
+      <div class="card-header container-header">
+      Program Evaluation
+      </div>
+      <div class="card card-custom" id="generalInfo">
+        <div class="card-header card-header-custom">
+          <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            General information
+          </button>
+        </div>
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#container">
+          <div class="card-body">
+            <label for="year">Year:</label>
+            <input id="year" class="form-control" type="text" placeholder="2020" readonly>
+            <br>
+            <label for="semester">Semester:</label>
+            <input id="semester" class="form-control" type="text" placeholder="Fall" readonly>
+            <br>
+            <label for="faculty">Faculty:</label>
+            <input id="faculty" class="form-control" type="text" placeholder="Faculty of Computing and Information Technology" readonly>
+            <br>
+            <label for="department">Department:</label>
+            <input id="department" class="form-control" type="text" placeholder="Computer Science" readonly>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-custom " id="first">
+        <div class="card-header card-header-custom ">
+
+          <button class="custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            Help and support provided to my education
+          </button>
+        </div>
+
+        <div id="collapse2" class="panel-collapse collapse" aria-labelledby="heading2" data-parent="#container">
+          <div class="card-body">
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. I have been provided with appropriate academic and professional guidance during my studies in the program</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">2. The faculty members were available for guidance and advice whenever I needed them.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">3. The department faculty members encouraged me to do my best.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">4. The department's faculty members provided feedback on my work.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">5. The department's faculty members have great knowledge of the content of the courses they teach.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">6. The department's faculty members were enthusiastic to work.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">7. The faculty members were concerned with the progress of their students.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-custom " id="second">
+        <div class="card-header card-header-custom ">
+          <button class="custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            Resources to support my education
+          </button>
+        </div>
+
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#container">
+          <div class="card-body">
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. The course materials were up-to-date and useful.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">2. The library resources were adequate and available whenever I needed them.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">3. The halls equipments (for lectures, laboratories, and lessons) were of high quality</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">4. The computer equipments were sufficient for my needs</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">5. Suitable equipment for extracurricular activities (including equipment for sports and entertainment) is available.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">6. There are facilities suitable for performing religious rituals.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">7. Field training programs (or internships) were effective in developing my skills</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-custom " id="third">
+        <div class="card-header card-header-custom ">
+          <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            Evaluate education I have received
+          </button>
+        </div>
+
+        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#container">
+          <div class="card-body">
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. What I learned in this program (department) will be important to my future.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">2. The program has helped me to develop sufficient interest in me to strive to keep my information updated in my field of study.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">3. The program has improved my ability to investigate and solve new problems.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">4. The program has improved my ability to work effectively with groups.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">5. The program improved my communication skills.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">6. The program helped me develop my basic skills in using technology to study issues and express findings.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">7. I have developed the knowledge and skills necessary for my chosen profession.</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card card-custom " id="fourth">
+        <div class="card-header card-header-custom ">
+          <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+            General evaluation
+          </button>
+        </div>
+
+        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#container">
+          <div class="card-body">
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. I am generally satisfied with the quality of my educational experience at the depatrment</label>
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange" class="disagree">Strongly Disagree</label>
+              </div>
+              <div class="col-sm-2">
+                <input type="range" class="custom-range range1" id="formControlRange" min="1" max="5">
+              </div>
+              <div class="col-sm-2">
+                <label for="formControlRange">Strongly Agree</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-custom" id="fifth">
+        <div class="card-header card-header-custom">
+          <button class="custom-btn" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+            Open-ended questions
+          </button>
+        </div>
+
+        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#container">
+
+
+          <div class="card-body">
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">1. What did you like most about your study in this program (department)?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">2. What did you dislike most about your study in this program (department)?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row padding-row">
+              <div class="col">
+                <label for="" class="">3. What suggestions do you have to improve the program (department) that you studied in this university?</label>
+              </div>
+              <div class="col-lg">
+                <textarea class="form-control custom-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+<div class="row-md-12 text-center">
+  <button type="button" name="submit" class="btn btn-success btn-submit">Submit</button>
+  <input type="reset" class="btn btn-success btn-submit">
+</div>
+
+  </form>
+</body>
+
+</html>
