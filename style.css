@@ -10,7 +10,7 @@
   width: 90%;
   margin: 2%;
 }
-.card-custom .collapse{
+.card-custom .collapse,#createInfo,#recipientSelect{
     border: 1px black solid;
 }
 .card-header-custom{
@@ -29,7 +29,7 @@
   padding-top: 2%;
   border-bottom: 1px black solid;
 }
-#begin .padding-row:last-child,#during .padding-row:last-child,#courseEval .padding-row:last-child,#generalEval .padding-row:last-child,#open .padding-row:last-child{
+#first .padding-row:last-child,#second .padding-row:last-child,#third .padding-row:last-child,#fourth .padding-row:last-child,#fifth .padding-row:last-child{
   border: none;
 }
 .col-sm-2 label{
@@ -43,4 +43,7 @@
 }
 .collapse.show {
   visibility: visible;
+}
+#facultyInfo ,#course{
+  display: none;
 }
